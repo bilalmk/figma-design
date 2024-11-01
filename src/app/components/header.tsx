@@ -1,5 +1,5 @@
 import Link from "next/link";
-export default function Header(data: any) {
+export default function Header(data: { font: { className: string; }; }) {
     return (
     <>
     <div className={`${data.font.className} div`}>
